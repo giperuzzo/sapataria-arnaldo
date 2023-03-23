@@ -1,4 +1,56 @@
-body {
-    color: blue;
+html {
+    font-size: 62.5%;
 }
 
+body {
+    color: black;
+}
+
+.titulo-pagina {
+    font-size: 24pt;
+    color: black ;
+}
+
+.subtitulo-pagina {
+    font-size: 20pt;
+    color: black;
+}
+
+.titulo-artigo{
+    font-size: 18pt;
+    color: black ;
+}
+
+.subtitulo-artigo {
+    font-size: 16pt;
+    color: black ;
+}
+
+body {
+    background: linear-gradient(#964b00,#f8f8f5);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navegacaomenu {
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.navegacaomenu a {
+    padding-right: 3rem;
+    font-size: 2rem ;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 3rem;
+    color: black;
+}
+
+.containertexto p {
+    font-size: 2rem;
+
+}
+
+.filosofia {
+    font-size: 2rem;
+}
