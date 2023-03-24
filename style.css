@@ -4,17 +4,18 @@ html {
 
 body {
     color: black;
-}
+    margin: 40px;
+    }
 
 .titulo-pagina {
     font-size: 24pt;
     color: black ;
-}
+    }
 
 .subtitulo-pagina {
     font-size: 20pt;
     color: black;
-}
+    }
 
 .titulo-artigo{
     font-size: 18pt;
@@ -23,14 +24,15 @@ body {
 
 .subtitulo-artigo {
     font-size: 16pt;
-    color: black ;
-}
+    color: red;
+
+    }
 
 body {
     background: linear-gradient(#964b00,#f8f8f5);
     background-size: cover;
     background-repeat: no-repeat;
-}
+    }
 
 .navegacaomenu {
     display: flex;
@@ -44,13 +46,13 @@ body {
     text-decoration: none;
     padding-top: 3rem;
     color: black;
-}
+    }
 
 .containertexto p {
     font-size: 2rem;
 
-}
+    }
 
 .filosofia {
     font-size: 2rem;
-}
+    }
