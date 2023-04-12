@@ -35,17 +35,28 @@ body {
 }
 
 .navegacaomenu {
-    display: flex;
-    justify-content: flex-end;
+    /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
+    display: flex; 
+    /* serve para jogar o texto para o final */
+     justify-content: flex-end;
 }
-
-.navegacaomenu a {
+.navegacaomenu {
+    /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
     padding-right: 3rem;
-    font-size: 2rem;
-    text-transform: uppercase;
-    text-decoration: none;
+    /* serve para colocar espaçamento do conteiner todo(para descolar do topo) */
     padding-top: 3rem;
+
+}
+.navegacaomenu a {
+    /* serve para colocar espaçamento entre as palavras das linhas */
+    padding-right: 3rem;
+    text-decoration: none;
     color: black;
+    text-transform: uppercase;
+}
+.navegacaomenu {
+    /* serve para mexer no tamanho da fonte das letras */
+    font-size: 1.5rem;
 }
 
 .containertexto p {
