@@ -71,15 +71,6 @@ main {
         height: 200px;
         object-fit: cover;      
     }
-    .imagem-footer {
-        width: 100%;  /*largura*/
-        height: 300px ; /* altura*/
-        object-fit: cover; /* ajustar a imagen para nao estourar*/
-        padding-top: 3rem;
-    }
-    .endereço-catalogo {
-        display: flex;
-        padding-left: 3rem;
-        padding-top: 3rem;
-    }
+    
+    
     
