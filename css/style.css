@@ -1,33 +1,37 @@
 CATALOGO
+
+:root {
+    --cor-fundo: radial-gradient #874421, #7c3b1a, #b87733;
+}
 body {
     color: whitesmoke;
 }
 body {
     /* serve para dar cor no fundo/body */
-    background: radial-gradient(#874421, #7c3b1a, #b87733)
+    background: var(--cor-fundo);
     
 }
-.navegacaomenu {
+.navbar{
     /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
     display: flex; 
     /* serve para jogar o texto para o final */
      justify-content: flex-end;
 }
-.navegacaomenu {
+.navbar{
     /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
     padding-right: 3rem;
     /* serve para colocar espaçamento do conteiner todo(para descolar do topo) */
     padding-top: 3rem;
 
 }
-.navegacaomenu a {
+.navbar a {
     /* serve para colocar espaçamento entre as palavras das linhas */
     padding-right: 3rem;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
 }
-.navegacaomenu {
+.navbar{
     /* serve para mexer no tamanho da fonte das letras */
     font-size: 1.5rem;
 }
@@ -37,12 +41,12 @@ body {
     object-fit: cover; /* ajustar a imagen para nao estourar*/
     padding-top: 3rem;
 }
-.titulo-pagina {
+.page-title {
     font-size: 25pt;
     padding-top: 3rem;
     margin: 40px;
 }
-.subtitulo-pagina {
+.page-subtitle {
     font-size: 20pt;
     padding-top: 1rem;
     margin: 40px;
@@ -54,13 +58,13 @@ main {
         align-items: center;
         padding-top: 10rem;
 }
-.titulo-containerProdutos {
+.title-container-products {
     font-size: 20pt;
     font-weight: lighter;
     padding-bottom: 3rem;
     padding-top: 3rem;
 }
-.container-produtos {
+.products-container {
         background-color: burlywood;
         width: 100%;
         height: 200px;
@@ -69,7 +73,7 @@ main {
         /* faz o alinhamento na horizontal */
         
 }
-.fotos-produtos {
+.product-photos {
         height: 200px;
              
     }
