@@ -1,4 +1,6 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,700;1,900&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,900;1,300&display=swap');
+
 
 :root {
     --cor-fundo: radial-gradient(#874421, #7c3b1a, #b87733);
@@ -7,6 +9,7 @@ body {
     color: black;
     /* serve para dar cor no fundo/body */
     background: var(--cor-fundo);
+    font-family: Raleway;
     
     
 }
@@ -106,4 +109,20 @@ main {
     padding-left: 3rem;
     padding-top: 18rem;
     justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: ;
+}
+
+.container > aside  >img {
+
+width: 800px;
+}
+
+.container h3 {
+    font-size: 14pt;
+    font-weight: 600 ;
+
 }
