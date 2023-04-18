@@ -113,7 +113,7 @@ main {
 
 .container {
     display: flex;
-    justify-content: ;
+    justify-content: space-between;
 }
 
 .container > aside  >img {
@@ -125,4 +125,11 @@ width: 800px;
     font-size: 14pt;
     font-weight: 600 ;
 
+}
+
+.social-icons {
+
+    height: 2rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
 }
