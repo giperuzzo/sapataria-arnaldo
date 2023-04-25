@@ -76,7 +76,14 @@ main {
 }
 .product-image {
 
-             
+   width: 130px;
+   object-fit: contain;
+   
+
+
+
+    
+    /*comando object contain = preenche o container total, cover se a imagem for maior ue o container ele recorta*/
     }
     
 .text-container { 
@@ -110,7 +117,6 @@ main {
     padding-top: 18rem;
     justify-content: space-between;
 }
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -132,4 +138,29 @@ width: 800px;
     height: 2rem;
     padding-top: 2rem;
     padding-left: 3rem;
+}
+
+.contact-form {
+    width: 40rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form buton {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.product-image-fundo-branco { /* Comando para tirar o fundo branco da imagem*/ 
+    mix-blend-mode: multiply;
 }
