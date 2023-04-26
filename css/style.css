@@ -24,7 +24,7 @@ body {
       /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
     padding-right: 3rem;
     /* serve para colocar espaçamento do conteiner todo(para descolar do topo) */
-    padding-top: 3rem;
+    padding-top: 1.5git add .rem;
    }
 
 .navbar a {
@@ -42,7 +42,7 @@ body {
     padding-top: 3rem;
 }
 .page-title {
-    font-size: 25pt;
+    font-size: 45pt;
     padding-top: 3rem;
     margin: 40px;
 }
@@ -56,11 +56,11 @@ main {
         flex-direction: column;
         /* serve para deixar em coluna, um embaixo do outro( no caso o conteudo do container) */
         align-items: center;
-        padding-top: 10rem;
+        padding-top: 1rem;
         color: black;
 }
 .products-title-container {
-    font-size: 20pt;
+    font-size: 35pt;
     font-weight: lighter;
     padding-bottom: 3rem;
     padding-top: 3rem;
@@ -114,7 +114,7 @@ main {
     display: flex;
     flex-direction: column;
     padding-left: 3rem;
-    padding-top: 18rem;
+    padding-top: 5rem;
     justify-content: space-between;
 }
 .container {
