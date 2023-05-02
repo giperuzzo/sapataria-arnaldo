@@ -37,7 +37,18 @@ body {
     Color: black;
     text-transform: uppercase;
     
+    
    }
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color:aqua;
+}
+
+
 
 .banner-header {
     width: 100%;  /*largura*/
@@ -63,27 +74,31 @@ main {
         padding-top: 1rem;
         color: black;
 }
-
-.initial-page p {
-   
-
+.main-text {
+    margin: 1rem;
+    line-height: 150%;
 }
+
 .products-title-container {
     font-size: 35pt;
     font-weight: lighter;
     padding-bottom: 3rem;
     padding-top: 2rem;
-    margin:auto
+    margin:auto;
     
 }
 .products-container {
-        background-color: burlywood;
+       
         width: 100%;
         height: 200px;
         display: flex;
         justify-content: space-around;
         /* faz o alinhamento na horizontal */
         
+}
+
+.background-products {
+    background-color: burlywood;
 }
 .product-image {
 
