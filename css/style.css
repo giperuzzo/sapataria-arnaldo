@@ -13,7 +13,7 @@ body {
     
     
 }
-.navbar{
+.navbar ul {
     /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
     display: flex; 
     /* serve para jogar o texto para o final */
@@ -24,16 +24,20 @@ body {
       /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
     padding-right: 3rem;
     /* serve para colocar espaçamento do conteiner todo(para descolar do topo) */
-    padding-top: 1.5git add .rem;
+    padding-top: 1.5rem;
    }
 
 .navbar a {
-    /* serve para colocar espaçamento entre as palavras das linhas */
+   
+    
+     
+      /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
     padding-right: 3rem;
     text-decoration: none;
-    color: black;
+    Color: black;
     text-transform: uppercase;
-}
+    
+   }
 
 .banner-header {
     width: 100%;  /*largura*/
@@ -43,7 +47,7 @@ body {
 }
 .page-title {
     font-size: 45pt;
-    padding-top: 3rem;
+    padding-top: 1,5rem;
     margin: 40px;
 }
 .page-subtitle {
@@ -59,11 +63,18 @@ main {
         padding-top: 1rem;
         color: black;
 }
+
+.initial-page p {
+   
+
+}
 .products-title-container {
     font-size: 35pt;
     font-weight: lighter;
     padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
+    margin:auto
+    
 }
 .products-container {
         background-color: burlywood;
